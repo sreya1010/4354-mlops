@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Desktop/mlops%20lab_4354/mlruns/857459114959825268/3e8062fdb8ec47b38086e5a10faa9728/artifacts
+end_time: 1794994197053
+entry_point_name: ''
+experiment_id: '857459114959825268'
+lifecycle_stage: active
+run_id: 3e8062fdb8ec47b38086e5a10faa9728
+run_name: random_forest
+run_uuid: 3e8062fdb8ec47b38086e5a10faa9728
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794994189357
+status: 3
+tags: []
+user_id: DELL

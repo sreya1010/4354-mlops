@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1794994197186
+current_stage: None
+description: null
+last_updated_timestamp: 1794994197186
+name: ManuscriptMoistureRisk
+run_id: 305c3cda0e5449e9a9ece2086f64b92c
+run_link: null
+source: file:///C:/Users/DELL/Desktop/mlops%20lab_4354/mlruns/857459114959825268/305c3cda0e5449e9a9ece2086f64b92c/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/DELL/Desktop/mlops%20lab_4354/mlruns/857459114959825268/305c3cda0e5449e9a9ece2086f64b92c/artifacts/model
+user_id: null
+version: 1

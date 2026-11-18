@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.19.0
+model_size_bytes: 6242
+model_uuid: 0128cc9864414da2829db5f30cbaa800
+run_id: 305c3cda0e5449e9a9ece2086f64b92c
+signature:
+  inputs: '[{"type": "double", "name": "relative_humidity_pct", "required": true},
+    {"type": "double", "name": "room_temperature_c", "required": true}, {"type": "double",
+    "name": "wall_surface_temperature_c", "required": true}, {"type": "long", "name":
+    "door_openings_per_hour", "required": true}, {"type": "double", "name": "ventilation_duration_min",
+    "required": true}, {"type": "double", "name": "dehumidifier_operating_hours",
+    "required": true}, {"type": "long", "name": "room_occupancy", "required": true},
+    {"type": "double", "name": "condensation_risk_index", "required": true}, {"type":
+    "double", "name": "ventilation_effectiveness_ratio", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-11-18 09:29:33.644496'

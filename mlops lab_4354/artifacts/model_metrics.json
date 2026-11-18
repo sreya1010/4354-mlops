@@ -1,0 +1,25 @@
+{
+  "best_model": "decision_tree",
+  "models": {
+    "decision_tree": {
+      "run_id": "305c3cda0e5449e9a9ece2086f64b92c",
+      "metrics": {
+        "accuracy": 0.896,
+        "precision": 0.7872340425531915,
+        "recall": 0.925,
+        "f1": 0.8505747126436781
+      }
+    },
+    "random_forest": {
+      "run_id": "3e8062fdb8ec47b38086e5a10faa9728",
+      "metrics": {
+        "accuracy": 0.904,
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1": 0.8571428571428571
+      }
+    }
+  },
+  "registered_model": "ManuscriptMoistureRisk",
+  "registered_version": 1
+}
